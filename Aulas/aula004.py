@@ -24,7 +24,7 @@ print(frase.lower()) # deixa todas as letras minúsculas
 print(frase.capitalize()) # deixa todas as letras minúsculas mas deixa a primeira em maiúscula
 print(frase.title()) # toda letra no começo da palavra fica em maiúscula (Curso Em Vídeo Android)
 
-frase2 = '    Aprenda Python   '
+frase2 = '    Aprenda Python    '
 
 print(frase2.strip()) # remove todos os espaços do início e do fim
 print(frase2.rstrip()) # remove o espaço da direita/fim
