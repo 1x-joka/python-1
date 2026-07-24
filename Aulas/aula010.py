@@ -1,0 +1,2 @@
+# # ============= ESTRUTURAS DE REPETIÇÕES/LAÇOS/ITERAÇÕES pt.2 =============
+# -> INTERROMPENDO REPETIÇÕES WHILE
