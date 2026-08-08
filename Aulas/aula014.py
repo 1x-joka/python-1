@@ -28,6 +28,7 @@ def teste():
     print(f'Na função, n vale {n}')
 
 n = 2 # Variável Global / Escopo Global
+x = 0 # Variável Global / Escopo Global
 print(f'No programa principal, n vale {n}')
 print(f'No programa principal, x vale {x}')
 

@@ -18,6 +18,10 @@ numeros2.pop(2) # removendo o elemento que está na posição 2 da lista
 numeros2.remove(2) # procura, começando do início, a primeira ocorrência do NÚMERO 2 e remove
 print(numeros2[2])
 
+frutas = ["banana", "maçã", "uva"]
+frutas.remove("maçã") # pode indicar pelo o que está escrito
+del frutas[0:3] # com o del, podemos apagar uma fatia inteira 
+
 if (4 in numeros2):
     numeros2.remove(4)
     print('Número 4 removido')
