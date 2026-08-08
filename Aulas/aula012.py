@@ -77,6 +77,7 @@ else:
 
 # SE SEU CÓDIGO TIVER IF ELIF DEMAIS...
 
+arquivo = ''
 ext = arquivo.split(".")[-1] # Divide o nome do arquivo pelo "." e pega o último pedaço
 tipos = {
     "txt": "texto",
