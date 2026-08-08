@@ -32,6 +32,14 @@ x = 0 # Variável Global / Escopo Global
 print(f'No programa principal, n vale {n}')
 print(f'No programa principal, x vale {x}')
 
+cont = 0
+def somar():
+    global cont # deve-se indicar à função que ela veja se tem alguma variável global com esse nome, senão ela só olha para dentro dela
+    cont += 1
+    print(cont)
+for _ in range(3):
+    somar()
+
 # RETORNANDO VALORES (RETURN)
 
 def somar2(a2 = 0, b2 = 0, c2 = 0):
